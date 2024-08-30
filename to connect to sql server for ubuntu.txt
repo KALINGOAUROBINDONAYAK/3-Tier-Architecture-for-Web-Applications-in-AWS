@@ -1,0 +1,7 @@
+to connect to sql server for ubuntu user
+sudo apt update
+sudo apt install mysql-server
+sudo systemctl start MySQL.service
+
+after 
+mysql -h " endpoint of database you created" -u admin -p
